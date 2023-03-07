@@ -1,0 +1,22 @@
+HTTP stands for "Hypertext Transfer Protocol"
+
+A URL is essentially a string of data that connects to a server and returns the specified web page
+
+DNS "Domain Name System" translates a given Hostname into an IP address
+
+A query string is the optional final part of a URL and it places information into the request header used during the GET request
+
+The two most common HTTP Verbs are GET(A request that doesn't affect the server) and POST(A request that has a permanent effect on the server)
+
+An HTTP Request is when your browser informs the server that it requires information from it
+
+An HTTP Response in when the server sends the information it recived from an HTTP Request to its destination
+
+An HTTP Header is a piece on specified information sent or recived from a request or response
+//Examples include:
+
+1: [somesite.com] is converted into an IP Address
+2: Computer is connected to IP Address using the appropriate protocol [http] (In the specified port [default for http is 80])
+3: Browser requests [/some/page.html] from the server of the IP Address
+4: Server recives the request and responds accordingly
+5: The page is loaded from response
