@@ -13,8 +13,7 @@ An HTTP Request is when your browser informs the server that it requires informa
 An HTTP Response in when the server sends the information it recived from an HTTP Request to its destination
 
 An HTTP Header is a piece on specified information sent or recived from a request or response
-//Examples include:
-
+//Examples include: Any query string (They are sent with the resource as request headers), "Accept Language" and "Accept"
 1: [somesite.com] is converted into an IP Address
 2: Computer is connected to IP Address using the appropriate protocol [http] (In the specified port [default for http is 80])
 3: Browser requests [/some/page.html] from the server of the IP Address
